@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--    C:\android_workspace\class_v2\app\src\main\res\drawable
+        @drawable/이미지명-->
+    <ImageView
+        android:src="@drawable/ic_launcher_background"
+        android:layout_width="300dp"
+        android:layout_height="300dp"/>
+
+    <ImageView
+
+        android:scaleType="centerCrop"
+        android:src="@drawable/youtube2"
+        android:layout_width="300dp"
+        android:layout_height="300dp"/>
+    <!-- 원본 이미지의 비율 1 : 1 , 2 : 1, 16 : 9 ...
+        scaleType="centerCrop" -> 이미지를 공간에 꽉 채워라
+                                  이미지 잘림
+    -->
+<!--    <ImageView-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:src="@drawable/house"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="200dp"/>-->
+</LinearLayout>
