@@ -11,13 +11,9 @@
         android:theme="@style/Theme.MyApp3">
         <activity
             android:name=".MainActivity2"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:exported="true">
         </activity>
+
         <activity
             android:name=".NewActivity"
             android:exported="true">
@@ -25,10 +21,18 @@
         </activity>
         <activity
             android:name=".SpaceActivity"
-            android:exported="true"></activity>
+            android:exported="true">
+
+        </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>
